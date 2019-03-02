@@ -1,0 +1,33 @@
+{
+  "name": "react-shop",
+  "version": "1.0.0",
+  "description": "nextjs, graphql shop",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "NODE_ENV=test jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raczosala/react-shop.git"
+  },
+  "keywords": [
+    "react",
+    "graphql",
+    "nextjs",
+    "prisma"
+  ],
+  "author": "Oscar Salazar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/raczosala/react-shop/issues"
+  },
+  "homepage": "https://github.com/raczosala/react-shop#readme",
+  "dependencies": {
+    "next": "^8.0.3",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3"
+  }
+}
